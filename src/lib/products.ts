@@ -7,7 +7,7 @@ export const products: Product[] = [
     name: "Minimalist Wool Coat",
     category: "outerwear",
     price: 299.99,
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
     description: "Elegant wool coat with a minimalist design, perfect for any occasion.",
     details: [
       "Premium Italian wool blend",
@@ -23,7 +23,7 @@ export const products: Product[] = [
     name: "Tailored Cotton Shirt",
     category: "tops",
     price: 89.99,
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80",
     description: "Classic tailored shirt made from the finest cotton.",
     details: [
       "100% organic cotton",
@@ -39,7 +39,7 @@ export const products: Product[] = [
     name: "Slim Fit Chino Trousers",
     category: "bottoms",
     price: 119.99,
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=988&q=80",
     description: "Essential chino trousers with a contemporary fit.",
     details: [
       "Stretch cotton twill",
@@ -55,7 +55,7 @@ export const products: Product[] = [
     name: "Cashmere V-Neck Sweater",
     category: "tops",
     price: 179.99,
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1614975058789-41788d6f3517?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
     description: "Luxurious cashmere sweater with a timeless V-neck design.",
     details: [
       "100% premium cashmere",
@@ -71,7 +71,7 @@ export const products: Product[] = [
     name: "Structured Blazer",
     category: "outerwear",
     price: 249.99,
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1036&q=80",
     description: "Versatile structured blazer that transitions seamlessly from day to night.",
     details: [
       "Wool blend fabric",
@@ -87,7 +87,7 @@ export const products: Product[] = [
     name: "Selvedge Denim Jeans",
     category: "bottoms",
     price: 149.99,
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1582552938357-32b906df40cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=980&q=80",
     description: "Premium selvedge denim jeans with authentic detailing.",
     details: [
       "14oz Japanese selvedge denim",
@@ -103,7 +103,7 @@ export const products: Product[] = [
     name: "Merino Wool Turtleneck",
     category: "tops",
     price: 129.99,
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
     description: "Refined turtleneck sweater crafted from extra-fine merino wool.",
     details: [
       "Extra-fine merino wool",
@@ -119,7 +119,7 @@ export const products: Product[] = [
     name: "Water-Resistant Parka",
     category: "outerwear",
     price: 329.99,
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1544923246-77307dd654cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
     description: "Technical parka with water-resistant properties and minimal design.",
     details: [
       "Water-resistant cotton blend shell",
