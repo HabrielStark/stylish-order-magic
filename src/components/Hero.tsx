@@ -8,7 +8,12 @@ const Hero = () => {
       {/* Background Image with Parallax Effect */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background/90"></div>
-        <div className="h-full w-full bg-[url('/placeholder.svg')] bg-cover bg-center"></div>
+        <div 
+          className="h-full w-full bg-cover bg-center"
+          style={{
+            backgroundImage: "url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')"
+          }}
+        ></div>
       </div>
 
       {/* Content */}
