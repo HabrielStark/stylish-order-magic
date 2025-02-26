@@ -1,10 +1,11 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 210 40% 98%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -13,7 +14,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 24 10% 10%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -22,7 +23,7 @@
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
+    --accent: 24 7% 83%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
@@ -35,19 +36,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -96,6 +90,50 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-light tracking-wide;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-light tracking-wide;
+  }
+}
+
+@layer components {
+  .hover-scale {
+    @apply transition-transform duration-500 hover:scale-105;
+  }
+  
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-lg;
+  }
+  
+  .hover-zoom {
+    @apply overflow-hidden;
+  }
+  
+  .hover-zoom img {
+    @apply transition-transform duration-700 ease-in-out hover:scale-110;
+  }
+  
+  .glass-card {
+    @apply bg-white/70 backdrop-blur-md shadow-sm border border-white/20;
+  }
+
+  .fade-in {
+    @apply opacity-0 animate-fade-in;
+  }
+
+  .button-hover {
+    @apply relative overflow-hidden transition-all duration-300 ease-in-out
+           after:absolute after:inset-0 after:z-[-1] after:bg-black/10 
+           after:opacity-0 after:transition-opacity hover:after:opacity-100;
+  }
+
+  .product-animation {
+    @apply transition-all duration-700 ease-in-out;
+  }
+
+  .image-shimmer {
+    @apply relative overflow-hidden bg-shimmer bg-[length:1000px_100%] animate-image-shimmer;
   }
 }
