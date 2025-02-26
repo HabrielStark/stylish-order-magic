@@ -7,11 +7,11 @@ const Hero = () => {
     <section className="relative h-screen flex items-center overflow-hidden">
       {/* Background Image with Parallax Effect */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background/90"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-background/90"></div>
         <div 
           className="h-full w-full bg-cover bg-center"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80')"
+            backgroundImage: "url('/lovable-uploads/59b571ba-c499-4706-bdb9-c8178aedbe9d.png')"
           }}
         ></div>
       </div>
